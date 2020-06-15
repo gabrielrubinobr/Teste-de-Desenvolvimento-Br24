@@ -17,16 +17,25 @@ __DICA:__ O Bitrix24 possui Webhooks nos Pipelines e em todos os eventos do CRM.
 ## Requisitos:
 
 * Programação Orientada a Objeto
+
 * Padrão MVC
+
 * Aplicativo está dentro do Bitrix24
 
 ## Informações Básicas:
 
 * Crie um portal Bitrix24 através do link: www.bitrix24.com.br
+
 * Lembre-se de criar um aplicativo na plataforma Bitrix24, por que seu código é inserido no Bitrix através de aplicativos.
+
 * Pode-se utilizar Webhook de entrada ou utilizar a função de instalar aplicativo.
+
 * Algumas informações de autenticação do Bitrix24 podem ser armazenadas em SESSÕES.
+
 * Os contatos devem ser vinculado com empresa. 
+
 * __Dica:__ O relacionamento entre duas entidades se dá por um campo de identificação em uma das entidades.
+
 * Fique livre para nos mostrar sua criatividade no layout.
+
 * O Bitrix exige  estar hospedado e com HTTPS. 
