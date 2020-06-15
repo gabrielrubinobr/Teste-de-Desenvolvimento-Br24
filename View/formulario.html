@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Formulário de cadastro</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/signin.css">
+
+</head>
+
+<body class="text-center">
+    <div class="container">
+		<div class="form-signin">
+            
+        <h2>Seleção - Br24</h2>
+			<form class="form-signin" method="GET" action="../Controller/formulario.php">
+                <input type="text" class="form-control" name="name" placeholder="Digite o nome e o sobrenome" required ><br>
+                <input type="text" class="form-control" name="phone" placeholder="Digite o seu telefone" required ><br>
+                <input type="email" class="form-control" name="email" placeholder="Digite o seu e-mail" required ><br>
+                <input type="text" class="form-control" name="CPF" placeholder="Digite o seu CPF" required >
+                <small class="form-text">somente números</small><br>
+                
+                <input type="text" class="form-control" name="name_da_empresa" placeholder="Digite o nome da empresa" required ><br>
+                <input type="text" class="form-control" name="CNPJ" placeholder="Digite o seu CNPJ" required>
+                <small class="form-text">somente números</small><br>
+				<input type="submit" name="btnCadUsuario" value="Cadastrar" class="btn btn-primary"><br><br>
+			</form>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
